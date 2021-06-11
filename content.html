@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "TT Fors", sans-serif;
+}
+
+.header {
+  background-color: #99ea44;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #bd65ff;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #feb163;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #14b8ff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Pet Health Care</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+     <li><a href="index.html">Home</li>
+      <li><a href="content.html">Pet health care</li>
+	  <li><a href="facts.html">Curiosities</li>
+      <li><a href="contact.html">Contact</li>
+    </ul>
+  </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C3A8BivprQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="col-6 col-s-9">
+    <h1>Information</h1>
+    <p>All these products help your dog to live better. Plastic products for animal care; applicators, syringes, medical and dental instruments. Guns for oral administration of capsules and boluses to animals. Bolus dispensing guns. Customized packaging. Product development. Dispensers and applicators. Nasal inoculation tips. Buy them when you see an emergancy or give an aid to your pet.</p>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Why own a pet?</h2>
+      <p>Having a pet in the home helps the person feel more self-confident and protected. It can also help to avoid states such as depression due to feelings of loneliness, since their company stimulates physical contact and communication.</p>
+      <h2>What is the purpose of having a pet?</h2>
+      <p>Pets can reduce stress and feelings of loneliness, improve heart health and even help children with their emotional and social skills.</p>
+      <h2>How to adopt a pet?</h2>
+      <p>Search the internet for pets and go to a place in your city.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright©️ 2021 Gerardo Azamar Fuentes and Mauricio Ruelas.</p>
+</div>
+
+</body>
+</html>
